@@ -14,25 +14,25 @@ data into three interactive report pages:
 - **Weekly Trend Analysis** – week-over-week revenue movement, delinquency 
   rates by occupation, and activation tracking
 
-## Key Metrics
+## 📈 Key Metrics
 - Total Revenue: $389.6M
 - Total Interest Earned: $55.2M
 - Transaction Amount: $313.7M
 - Transaction Count: 4.6M
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **Data Source:** PostgreSQL
 - **ETL/Transformation:** Power Query
 - **Visualization:** Power BI Desktop
 - **Modeling:** DAX measures for revenue, WoW growth, and delinquency rates
 
-## Insights Surfaced
+## 💡Insights Surfaced
 - Blue card category drives ~83% of total revenue
 - Businessman segment has the highest average income and revenue contribution
 - Delinquency is concentrated in self-employed and blue-collar segments
 - Bills and Entertainment are the top two expense categories by revenue
 
-## Project Structure & Workflow
+## 📁 Project Structure & Workflow
 
 ```
 Credit Card Financial Dashboard
