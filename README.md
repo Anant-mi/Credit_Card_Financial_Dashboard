@@ -34,50 +34,40 @@ data into three interactive report pages:
 
 ## Project Structure & Workflow
 
+```
 Credit Card Financial Dashboard
 │
-├── 📊 Data Layer
+├── Data Layer
 │   └── PostgreSQL
 │       ├── Database: ccdb
 │       ├── Table: cc_detail   (transaction-level data)
 │       └── Table: cust_detail (customer-level data)
 │
-├── 🔗 Connectivity
+├── Connectivity
 │   └── Npgsql Driver
 │       └── Connects Power BI ↔ PostgreSQL
 │
-├── 🛠️ ETL / Data Preparation
+├── ETL / Data Preparation
 │   └── Power Query
 │       ├── Connected to PostgreSQL source
-│       ├── Cleaned & shaped raw transaction/customer data
-│       └── Merged tables for unified reporting model
+│       ├── Cleaned & shaped raw data
+│       └── Merged tables for reporting model
 │
-├── 📐 Data Modeling
-│   └── DAX (Data Analysis Expressions)
+├── Data Modeling
+│   └── DAX
 │       ├── Week-over-week revenue growth (%)
 │       ├── Delinquency rate by occupation
-│       ├── 30-day activation rate
-│       └── Revenue, interest, and income aggregations
+│       └── 30-day activation rate
 │
-├── 📈 Visualization
+├── Visualization
 │   └── Power BI Desktop
 │       ├── Page 1: Weekly Trend & Risk Summary
-│       │   ├── Revenue by card category
-│       │   ├── WoW revenue table
-│       │   ├── Monthly transaction trend
-│       │   └── Delinquency by occupation
-│       │
 │       ├── Page 2: Transaction Report
-│       │   ├── Revenue by card type, expense type, education
-│       │   ├── Revenue by payment method (swipe/chip/online)
-│       │   └── Quarterly revenue vs transaction count
-│       │
 │       └── Page 3: Customer Report
-│           ├── Revenue by age, income, marital status
-│           ├── Top 5 states by revenue
-│           └── Gender-based revenue trends
 │
-└── 🎯 Key Deliverables
-    ├── Interactive multi-page Power BI dashboard
-    ├── Business insights (Blue card = 83% revenue, etc.)
+└── Key Deliverables
+    ├── Interactive multi-page dashboard
     └── End-to-end BI workflow: DB → ETL → Model → Visualize
+```
+
+alize
