@@ -14,6 +14,29 @@ data into three interactive report pages:
 - **Weekly Trend Analysis** – week-over-week revenue movement, delinquency 
   rates by occupation, and activation tracking
 
+ ## 📊 Dashboard Preview
+
+### 💳 Transaction Report
+Revenue breakdown by card category, expense type, education level, job type, and transaction channel (chip/swipe/online).
+
+<img width="6150" height="3525" alt="Credit_Card_Report-Transaction" src="https://github.com/user-attachments/assets/b21b6861-344e-4994-aab5-140018d76ee6" />
+
+### 👤 Customer Report
+Customer demographic analysis across age, income group, marital status, dependents, and geography.
+
+<img width="6150" height="3525" alt="Credit_Card_Report-Customer" src="https://github.com/user-attachments/assets/68be56a5-87ad-466c-b590-e02926eed8a3" />
+
+### 📆 Weekly Trend & Risk Summary
+Week-over-week revenue movement, delinquency rate by occupation, and customer activation tracking.
+
+<img width="1324" height="764" alt="Weekly Trend   Risk Summary" src="https://github.com/user-attachments/assets/61c7a296-f28e-4927-ab92-ab964a12b86d" />
+
+
+
+
+
+
+
 ## 📈 Key Metrics
 - Total Revenue: $389.6M
 - Total Interest Earned: $55.2M
